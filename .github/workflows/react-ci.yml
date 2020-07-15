@@ -40,4 +40,4 @@ jobs:
 
     - name: Deploy to Heroku
       run: |
-        git push heroku :refs/heads/master:master -f
+        git push heroku master -f
